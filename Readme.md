@@ -8,10 +8,7 @@
 - <a href="https://github.com/avajs/ava">AVA</a>
 - <a href="https://github.com/facebook/jest">Jest</a> 
 
-## CRUD Football player
-
-
-Functions Examples
+### Functions Examples
 
 ```js
 const myFunctions = {}
@@ -72,10 +69,10 @@ const ava = require('ava')
 const _function = require('../functions')
 
 ava('isNumber', t => {
-	t.deepEqual(_function.isNumber(2), 'number')
+   t.deepEqual(_function.isNumber(2), 'number')
 })
 
 ava('isVowel', t => {
-	t.deepEqual(_function.isVowel('a'), true)
+   t.deepEqual(_function.isVowel('a'), true)
 })
 ```
