@@ -1,0 +1,21 @@
+{
+  "name": "unitest-mocha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:mocha": "nodemon test/mocha.test.js --exec mocha",
+    "test:ava": "nodemon test/ava.test.js --exec ava",
+    "test:jest": "nodemon test/jest.test.js --exec jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "chai": "^4.1.2",
+    "jest": "^23.1.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.17.5"
+  }
+}
