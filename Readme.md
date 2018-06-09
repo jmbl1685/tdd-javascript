@@ -8,6 +8,15 @@
 - <a href="https://github.com/avajs/ava">AVA</a>
 - <a href="https://github.com/facebook/jest">Jest</a> 
 
+## Usage
+
+```sh
+  npm install
+  npm run test:mocha
+  npm run test:ava
+  npm run test:jest   
+```
+
 ### Functions Examples
 
 ```js
