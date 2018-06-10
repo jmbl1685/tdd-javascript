@@ -3,8 +3,7 @@
 
 ## Used modules
 
-- <a href="https://github.com/mochajs/mocha">Mocha</a> 
-- <a href="https://github.com/chaijs/chai">Chai</a> 
+- <a href="https://github.com/mochajs/mocha">Mocha</a> + <a href="https://github.com/chaijs/chai">Chai</a> 
 - <a href="https://github.com/avajs/ava">AVA</a>
 - <a href="https://github.com/facebook/jest">Jest</a> 
 
