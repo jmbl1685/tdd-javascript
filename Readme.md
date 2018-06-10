@@ -32,7 +32,7 @@ myFunctions.isVowel = item => {
 }
 ```
 
-[Test] Mocha + Chair
+[Test] Mocha + Chai
 
 ```js
 'use strict'
