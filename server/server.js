@@ -10,7 +10,7 @@ app.post('/mytest', (req, res) => {
     const { number, vowel } = req.body
 
     if (number === undefined || vowel === undefined)
-        return res.status(404).send({ error: 'missing fields' })
+        return res.status(404).send({ error: 'missing fields [required]' })
 
     return res.status(200).send({ number, vowel })
 })
